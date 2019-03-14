@@ -1,0 +1,101 @@
+/*FindThePrecious.css 0
+ 0                    0
+ 00      --  --      00
+ 00    --  /\  --    00
+ 000 ---  (  )  --- 000
+ 0000  --  \/  --  0000
+  0000   --  --   0000
+   000000      000000
+    0000000000000000
+       0000000000
+          0000*/
+
+
+/* Fellow title align */
+
+#fellows h2, p {
+		
+		display: inline;
+	}
+
+/* Card section */
+
+.card-img {
+
+		height: 30em;
+		opacity:0.6;
+		
+	}
+
+.card-img-top
+	{
+		object-fit: cover;
+	}
+
+.status-card {
+		
+		height: 3em;
+		width: 10em;
+	  	position: absolute;
+		background:white;
+		opacity: 0.7;
+		border-radius: 10px;
+		text-align: center;
+		font-size: 2em;
+		color: black;
+		top: 10%;
+	  	left: 50%;
+		transform: translate(-50%, -50%);
+
+		
+		
+	}
+
+.orange {
+  		color:#FF4500;
+	}
+
+.name-card {
+		position: absolute;
+	  	font-size: 2em;
+	  	color: white;
+	  	top: 50%;
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
+	}
+
+
+
+.card-img:hover {
+  		opacity: 1;
+	}
+
+.card-img-top:hover .status-card {
+    	visibility: hidden;
+	}
+
+.card-img-top:hover .name-card {
+    	font-size: 2em;
+    	color: white;
+    	position: absolute;
+    	top: 70%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
+	}
+
+/* Section hunter */
+
+.img-hunter {
+		width: 150px; 
+		height: 150px;
+		object-fit: contain;
+	}
+
+/* Section army */
+
+.picture-army {
+		align-content: center;
+	}
+
+/* Footer */
+
